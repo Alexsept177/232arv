@@ -17,7 +17,10 @@ public class program
         Console.WriteLine("Skriv en bredd");
         Console.WriteLine("---------------------");
         float width = float.Parse(Console.ReadLine());
-
+        Console.WriteLine("---------------------");
+        Console.WriteLine("Skriv en diameter");
+        Console.WriteLine("---------------------");
+        float diameter = float.Parse(Console.ReadLine());
         int choice = 1;
 
         while (choice != 0)
@@ -29,13 +32,14 @@ public class program
             {
                 a = new Rectangle(width, height);
             }
-            if (choice == 2)
-            {
-                a = new Circle(width, height);
-            }
-            else if (choice == 3)
+            
+            else if (choice == 2)
             {
                 a = new triangle(width, height);
+            }
+            if (choice == 3)
+            {
+                a = new Circle(diameter);
             }
             else{
                 continue;

@@ -5,22 +5,24 @@ using System.Threading.Tasks;
 
 namespace _232arv
 {
-    public class Circle
+    public class Circle : IShape
     {
-            protected float diameter;
+        public float diameter;
 
-         public Circle(float diameter)
+        public Circle(float diameter)
         {
 
         }
-        public override float Area()
+        public float Area()
         {
-            float CircleA= ;
+            float r = diameter/2;
+            float CircleA= (float)(Math.PI * (r * r));
             return  CircleA;
         }
-            public override float Omkrets()
+            public float Omkrets()
         {
-            float  CircleAO = ;
+            float r = diameter/2;
+            float  CircleAO = (float)(r * 2 * Math.PI);
             return  CircleAO;
         }
     }

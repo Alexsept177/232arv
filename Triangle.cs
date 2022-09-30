@@ -18,7 +18,7 @@ public class triangle : IShape
     {
 
     }
-    public  float Area()
+    public float Area()
     {
         float Area = (width * height) / 2;
         return Area;
