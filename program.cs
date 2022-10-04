@@ -26,20 +26,38 @@ public class program
         while (choice != 0)
         {
 
-            Console.WriteLine("Rectangle skriv 1, triangle skriv 2");
+            Console.WriteLine("Rectangle skriv 1, triangle skriv 2, circle skriv 3,  Cylinder skriv 4, Sphere skriv 5");
             choice = int.Parse(Console.ReadLine());
             if (choice == 1)
             {
+                  Console.WriteLine("---------------------");
                 a = new Rectangle(width, height);
+                  Console.WriteLine("---------------------");
             }
             
             else if (choice == 2)
             {
+                  Console.WriteLine("---------------------");
                 a = new triangle(width, height);
+                  Console.WriteLine("---------------------");
             }
             if (choice == 3)
             {
+                  Console.WriteLine("---------------------");
                 a = new Circle(diameter);
+                  Console.WriteLine("---------------------");
+            }
+            else if( choice == 4)
+            {
+                  Console.WriteLine("---------------------");
+                a = new Cylinder(diameter, height);
+                  Console.WriteLine("---------------------");
+            }
+            if(choice == 5)
+            {
+                Console.WriteLine("---------------------");
+                a = new Sphere(diameter);
+                  Console.WriteLine("---------------------");
             }
             else{
                 continue;

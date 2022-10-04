@@ -16,8 +16,6 @@ public class Rectangle : IShape
     } */
     public Rectangle(float width, float height)
     {
-        
-
     }
     public  float Area()
     {

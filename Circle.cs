@@ -8,10 +8,10 @@ namespace _232arv
     public class Circle : IShape
     {
         public float diameter;
-
+        
         public Circle(float diameter)
         {
-
+             this.diameter =  diameter;
         }
         public float Area()
         {
