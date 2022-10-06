@@ -9,13 +9,10 @@ public class Rectangle : IShape
     protected float width;
     protected float height;
 
-/*    public Shape(float width, float height)
+    public Rectangle(float width, float height)
     {
         this.width = width;
         this.height = height;
-    } */
-    public Rectangle(float width, float height)
-    {
     }
     public  float Area()
     {

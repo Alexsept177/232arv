@@ -11,7 +11,7 @@ namespace _232arv
         
         public Circle(float diameter)
         {
-             this.diameter =  diameter;
+            this.diameter = diameter;
         }
         public float Area()
         {
@@ -22,8 +22,8 @@ namespace _232arv
             public float Omkrets()
         {
             float r = diameter/2;
-            float  CircleAO = (float)(r * 2 * Math.PI);
-            return  CircleAO;
+            float  CircleO = (float)(r * 2 * Math.PI);
+            return  CircleO;
         }
     }
 }

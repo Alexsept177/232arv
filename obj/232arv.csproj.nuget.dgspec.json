@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\arv\\232arv\\232arv.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\arv\\unity_game\\232arv\\232arv.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\arv\\232arv\\232arv.csproj": {
+    "C:\\Users\\Admin\\Desktop\\arv\\unity_game\\232arv\\232arv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\arv\\232arv\\232arv.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\arv\\unity_game\\232arv\\232arv.csproj",
         "projectName": "232arv",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\arv\\232arv\\232arv.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\arv\\unity_game\\232arv\\232arv.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\arv\\232arv\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\arv\\unity_game\\232arv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

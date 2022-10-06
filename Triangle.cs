@@ -9,14 +9,10 @@ public class triangle : IShape
     protected float width;
     protected float height;
 
-/*    public Shape(float width, float height)
+    public triangle(float width, float height)
     {
         this.width = width;
         this.height = height;
-    } */
-    public triangle(float width, float height)
-    {
-
     }
     public float Area()
     {
